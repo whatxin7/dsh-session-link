@@ -1,0 +1,51 @@
+{
+  "name": "dsh-session-link",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "license": "MIT",
+  "description": "跨会话联通：会话路由（一个 QQ 会话一个 agent 会话）、跨会话近况摘要、长期往事检索（RAG）、以及跨会话关系图。纯本地、append-only。",
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "session",
+    "rag",
+    "retrieval",
+    "agent-memory",
+    "qq",
+    "onebot"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "session-link": "./bin/session-link.mjs"
+  },
+  "exports": {
+    ".": "./src/session-router.mjs",
+    "./router": "./src/session-router.mjs",
+    "./cross-talk": "./src/cross-talk.mjs",
+    "./relation": "./src/relation-graph.js",
+    "./rag": "./src/rag/index.mjs",
+    "./archive": "./src/rag/archive.mjs",
+    "./transcript": "./src/rag/transcript.mjs",
+    "./model-view": "./src/qq-model-view.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Derpyu520/dsh-session-link.git"
+  },
+  "homepage": "https://github.com/Derpyu520/dsh-session-link#readme",
+  "bugs": {
+    "url": "https://github.com/Derpyu520/dsh-session-link/issues"
+  }
+}
