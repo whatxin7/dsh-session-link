@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "dsh-session-link",
   "version": "1.0.0",
   "private": false,
@@ -42,10 +42,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Derpyu520/dsh-session-link.git"
+    "url": "git+https://github.com/whatxin7/dsh-session-link.git"
   },
-  "homepage": "https://github.com/Derpyu520/dsh-session-link#readme",
+  "homepage": "https://github.com/whatxin7/dsh-session-link#readme",
   "bugs": {
-    "url": "https://github.com/Derpyu520/dsh-session-link/issues"
+    "url": "https://github.com/whatxin7/dsh-session-link/issues"
   }
 }
+
+
